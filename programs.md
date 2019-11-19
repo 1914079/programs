@@ -333,7 +333,7 @@ printf("\n%d is the greatest number\n",c);
 }
 ```
 ----
-## 15. GREATEST INTEAGER FUNCTION
+## 15. GREATEST INTEGER FUNCTION
 ```C
 #include<stdio.h>
 int gcd(int a,int b)
