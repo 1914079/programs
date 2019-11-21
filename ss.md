@@ -48,6 +48,13 @@ void main()
 
 }
 ```
+### OUTPUT
+```C
+    Enter the two number to be added
+    4
+    5
+    Sum  : 4 + 5 = 9 
+```
 
 ----
 ## PRACTICAL 2. Write a C Program to Multiply two Floating Point Numbers
@@ -63,6 +70,11 @@ int main()
     
     return 0;
 }
+```
+
+### OUTPUT
+```C
+
 ```
 
 ----
@@ -82,6 +94,11 @@ int main()
 }
 ```
 
+### OUTPUT
+```C
+
+```
+
 ----
 ## PRACTICAL 4. Write a C Program to calculate the sum of first 10 natural numbers using for loop.
 ```C
@@ -97,6 +114,11 @@ void main()
     }
     printf("\nThe Sum is : %d\n", sum);
 }
+```
+
+### OUTPUT
+```C
+
 ```
 
 ----
@@ -122,6 +144,11 @@ int main()
 }
 ```
 
+### OUTPUT
+```C
+
+```
+
 ----
 ## PRACTICAL 6. Write a C Program to print ODD numbers from 1 to N using do while loop.
 ```C
@@ -142,6 +169,11 @@ int main()
 	}
 	return 0;
 }
+```
+
+### OUTPUT
+```C
+
 ```
 
 ----
@@ -178,6 +210,11 @@ int main()
     return 0;
 }
 ```
+
+### OUTPUT
+```C
+
+```
 ----
 ## PRACTICAL 8. Write a C Program to find the max between two numbers uding function 
 ```C
@@ -196,6 +233,11 @@ int max(int num1, int num2)
 {
     return (num1 > num2 ) ? num1 : num2;
 }
+```
+
+### OUTPUT
+```C
+
 ```
 
 ## PRACTICAL 9. Write a program in C to check whether a number is a prime or not using the function.
@@ -225,6 +267,11 @@ int check_prime(int a)
    return 1;
 }
 ```
+
+### OUTPUT
+```C
+
+```
 ----
 ## PRACTICAL 10. Write a C Program for function (using call by value)
 ```C
@@ -253,6 +300,11 @@ a=b;
 b=temp;
 printf("\n Value of a=%d,Value of b=%d after swaping\n",a,b);
 }
+```
+
+### OUTPUT
+```C
+
 ```
 ----
 ## PRACTICAL 11. Write a C Program for function (using call by reference).
@@ -284,6 +336,11 @@ printf("\n Value of a=%d,Value of b=%d after swaping\n",*a,*b);
 }
 ```
 
+### OUTPUT
+```C
+
+```
+
 ----
 ## PRACTICAL 12. Write a C Program to take 5 values from the user and store them in an array. Print the elements stored in the array
 ```C
@@ -302,6 +359,11 @@ int main()
   }
   return 0;
 }
+```
+
+### OUTPUT
+```C
+
 ```
 
 ----
@@ -330,6 +392,11 @@ int main()
     printf("Average = %.2f", average);
     return 0;
 }
+```
+
+### OUTPUT
+```C
+
 ```
 ----
 ## PRACTICAL 14. Write a C Program to accept Sorted Array and do Search using Binary Search .
@@ -370,6 +437,11 @@ int main()
         return 0;
 }
 ```
+
+### OUTPUT
+```C
+
+```
 ----
 ## PRACTICAL 15. Write a C Program to Implement Linear Search
 ```C
@@ -396,6 +468,11 @@ int main()
     printf("%d isn't present in the array.\n", search);
 return 0;
 }
+```
+
+### OUTPUT
+```C
+
 ```
  ----
  ## PRACTICAL 16. Write a C Program to Sort N Numbers in Ascending Order using Bubble Sort.
@@ -427,9 +504,13 @@ int main()
                 printf("%d\t",a[i]);
         printf("\n");
 }
----
 ```
+
 ### OUTPUT
+```C
+
+```
+
 
 
 ----
@@ -456,14 +537,14 @@ int main()
 }
 ```
 ### OUTPUT
-
+```C
     Using variable num:
     value of num: 100
     address of num: 2764564284
     Using pointer variable:
     value of num: 100
     address of num: 2764564284
-     
+```     
 ----
 ##  PRACTICAL 18. Write a C Program to Store Information of a Student Using Structure
 ```C
@@ -502,29 +583,30 @@ int main()
     return 0;
 }
 ```
+
 ### OUTPUT
-   
-Enter information of students: 
+```C   
+    Enter information of students: 
 
-For roll number1,
-Enter name: Tom
-Enter marks: 98
+    For roll number1,
+    Enter name: Tom
+    Enter marks: 98
 
-For roll number2,
-Enter name: Jerry
-Enter marks: 89
-.
-.
-.
-Displaying Information:
+    For roll number2,
+    Enter name: Jerry
+    Enter marks: 89
+    .
+    .
+    .
+    Displaying Information:
 
-Roll number: 1
-Name: Tom
-Marks: 98
-.
-.
-.
-
+    Roll number: 1
+    Name: Tom
+    Marks: 98
+    .
+    .
+    .
+```
 
 ----
 ## PRACTICAL 19. Write a C Program to Find Factorial of a Number Using Recursion.
@@ -548,9 +630,10 @@ long int multiplyNumbers(int n)
 }     
 ```
 ### OUTPUT
-  
+```C  
   Enter a positive integer: 6
   Factorial of 6 = 720
+```
 
 ----
 ## PRACTICAL 20. Write a C Program to display Fibonacci Series using recursion,
@@ -579,4 +662,9 @@ int Fibonacci(int n)
       return ( Fibonacci(n-1) + Fibonacci(n-2) );
 }
 ```
+### OUTPUT
+```C
+
+```
+
 ----
