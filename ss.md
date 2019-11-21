@@ -415,13 +415,10 @@ int main()
     91
     03
     Displaying integers: 52
-12
-36
-91
-3
-
-
-
+   12
+   36
+   91
+   3
 ```
 
 ----
@@ -454,7 +451,13 @@ int main()
 
 ### OUTPUT
 ```C
-
+    Enter the numbers of elements: 5
+    1. Enter number: 78
+    2. Enter number: 98
+    3. Enter number: 32
+    4. Enter number: 08
+    5. Enter number: 72
+    Average = 57.60
 ```
 ----
 ## PRACTICAL 14. Write a C Program to accept Sorted Array and do Search using Binary Search .
@@ -498,6 +501,19 @@ int main()
 
 ### OUTPUT
 ```C
+    Enter the size of array7 6
+    Enter 6 numbar
+    75
+    33
+42
+12
+76
+22
+Enter the the number u want to search
+42
+42 found at location 3
+
+
 
 ```
 ----
