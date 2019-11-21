@@ -74,6 +74,10 @@ int main()
 
 ### OUTPUT
 ```C
+    Enter two numbers: 1.2
+    2.3
+    Product = 2.76
+
 
 ```
 
@@ -96,7 +100,8 @@ int main()
 
 ### OUTPUT
 ```C
-
+    Enter an integer: 5
+    5 is odd.
 ```
 
 ----
@@ -118,7 +123,9 @@ void main()
 
 ### OUTPUT
 ```C
-
+    The first 10 natural number is :                                                                              
+    1 2 3 4 5 6 7 8 9 10                                                                                          
+    The Sum is : 55
 ```
 
 ----
@@ -146,7 +153,11 @@ int main()
 
 ### OUTPUT
 ```C
-
+    Print all even numbers till: 7
+    All even numbers from 1 to 7 are: 
+    2
+    4
+    6
 ```
 
 ----
@@ -173,7 +184,9 @@ int main()
 
 ### OUTPUT
 ```C
-
+    Enter the value of N: 7
+    Odd Numbers from 1 to 7:
+    1 3 5 7 
 ```
 
 ----
@@ -213,7 +226,10 @@ int main()
 
 ### OUTPUT
 ```C
-
+    Enter an operator (+, -, *,): +
+    Enter two operands: 45
+    8
+   45.0 + 8.0 = 53.0
 ```
 ----
 ## PRACTICAL 8. Write a C Program to find the max between two numbers uding function 
@@ -237,7 +253,10 @@ int max(int num1, int num2)
 
 ### OUTPUT
 ```C
+    Enter any two numbers: 45
+    67
 
+    Maximum = 67
 ```
 
 ## PRACTICAL 9. Write a program in C to check whether a number is a prime or not using the function.
@@ -270,7 +289,9 @@ int check_prime(int a)
 
 ### OUTPUT
 ```C
-
+    Enter an integer to check whether it is prime or not.
+    11
+    11 is prime.
 ```
 ----
 ## PRACTICAL 10. Write a C Program for function (using call by value)
@@ -284,7 +305,7 @@ printf("\n Enter value for x:");
 scanf("%d",&x);
 printf("\n Enter value for y:");
 scanf("%d",&y);
-printf("\n Before calling swap functin\n");
+printf("\n Before calling swap function\n");
 printf("\n Value of x=%d,Value of y=%d\n",x,y);
 swap(x,y);
 printf("\n After returning from swap function");
@@ -304,6 +325,23 @@ printf("\n Value of a=%d,Value of b=%d after swaping\n",a,b);
 
 ### OUTPUT
 ```C
+
+    Enter value for x:65
+    Enter value for y:89
+
+    Before calling swap function
+    Value of x=65,Value of y=89
+
+    Inside the function 
+
+ Value of a=65,Value of b=89 before swaping
+
+ Value of a=89,Value of b=65 after swaping
+
+ After returning from swap function
+ Value of x=65,value of y=89
+
+
 
 ```
 ----
