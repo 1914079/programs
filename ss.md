@@ -1,10 +1,6 @@
 ----
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA.**
-----
-![alt text][logo]
-
-[logo]: https://avatars0.githubusercontent.com/u/52875133?s=200&v=4
-
+![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg)
 # **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
 ----
 ## **NAME** - ***NIKHIL***
