@@ -415,10 +415,10 @@ int main()
     91
     03
     Displaying integers: 52
-   12
-   36
-   91
-   3
+    12
+    36
+    91
+    3
 ```
 
 ----
@@ -501,20 +501,17 @@ int main()
 
 ### OUTPUT
 ```C
-    Enter the size of array7 6
+    Enter the size of array6
     Enter 6 numbar
     75
     33
-42
-12
-76
-22
-Enter the the number u want to search
-42
-42 found at location 3
-
-
-
+    42
+    12
+    76
+    22
+    Enter the the number u want to search
+    42
+    42 found at location 3
 ```
 ----
 ## PRACTICAL 15. Write a C Program to Implement Linear Search
@@ -546,12 +543,23 @@ return 0;
 
 ### OUTPUT
 ```C
-
+    Enter number of elements in array
+    6
+    Enter 6 integer(s)
+    45
+    63
+    12
+    23
+    89
+    77
+    Enter a number to search
+    23
+    23 is present at location 4.
 ```
  ----
  ## PRACTICAL 16. Write a C Program to Sort N Numbers in Ascending Order using Bubble Sort.
  ```C
- #include<stdio.h>
+#include<stdio.h>
 int main()
 {
         int i,n,k,temp;
@@ -582,10 +590,19 @@ int main()
 
 ### OUTPUT
 ```C
+    enter the array size
+    6
+    enter 6 elements of array
+    32
+    56
+    78
+    105
+    90
+    23
 
+    array elements after shorting
+    23   32   56   78   90   105	
 ```
-
-
 
 ----
 ## PRACTICAL 17. Write a C program to declare, assign and access a pointer variable.
@@ -738,7 +755,13 @@ int Fibonacci(int n)
 ```
 ### OUTPUT
 ```C
-
+    5
+    Fibonacci series
+    0
+    1
+    1
+    2
+    3
 ```
 
 ----
