@@ -12,27 +12,27 @@
 
 # PROGRAMS
 ```C
-Practical 1:  Write a C Program to Add Two Integers.
-Practical 2:  Write a C Program to Multiply two Floating .
-Practical 3:  Write a C Program to Check Whether a Number is Even or Odd using if else statement.
-Practical 4:  Write a C Program to calculate the sum of first 10 natural numbers using for loop.
-Practical 5:  Write a C Program to print EVEN numbers from 1 to N using while loop.
-Practical 6:  Write a C Program to print ODD numbers from 1 to N using do while loop.
-Practical 7:  Write a C Program to create a simple calculator using switch Statement.
-Practical 8:  Write a C Program to find the max between two numbers uding function.
-Practical 9:  Write a program in C to check whether a number is a prime or not using the function.
-Practical 10: Write a C Program for function (using call by value).
-Practical 11: Write a C Program for function (using call by reference).
-Practical 12: Write a C Program to take 5 values from the user and store them in an array. Print the
-              elements stored in the array.
-Practical 13: Write a C Program to find the average of n numbers using arrays.
-Practical 14: Write a C Program to accept Sorted Array and do Search using Binary Search .
-Practical 15: Write a C Program to Implement Linear Search.
-Practical 16: Write a C Program to Sort N Numbers in Ascending Order using Bubble Sort.
-Practical 17: Write a C program to declare, assign and access a pointer variable.
-Practical 18: Write a C Program to Store Information of a Student Using Structure
-Practical 19: Write a C Program to Find Factorial of a Number Using Recursion.
-Practical 20: Write a C Program to display Fibonacci Series using
+    Practical 1:  Write a C Program to Add Two Integers.
+    Practical 2:  Write a C Program to Multiply two Floating .
+    Practical 3:  Write a C Program to Check Whether a Number is Even or Odd using if else statement.
+    Practical 4:  Write a C Program to calculate the sum of first 10 natural numbers using for loop.
+    Practical 5:  Write a C Program to print EVEN numbers from 1 to N using while loop.
+    Practical 6:  Write a C Program to print ODD numbers from 1 to N using do while loop.
+    Practical 7:  Write a C Program to create a simple calculator using switch Statement.
+    Practical 8:  Write a C Program to find the max between two numbers uding function.
+    Practical 9:  Write a program in C to check whether a number is a prime or not using the function.
+    Practical 10: Write a C Program for function (using call by value).
+    Practical 11: Write a C Program for function (using call by reference).
+    Practical 12: Write a C Program to take 5 values from the user and store them in an array. Print the
+                  elements stored in the array.
+    Practical 13: Write a C Program to find the average of n numbers using arrays.
+    Practical 14: Write a C Program to accept Sorted Array and do Search using Binary Search .
+    Practical 15: Write a C Program to Implement Linear Search.
+    Practical 16: Write a C Program to Sort N Numbers in Ascending Order using Bubble Sort.
+    Practical 17: Write a C program to declare, assign and access a pointer variable.
+    Practical 18: Write a C Program to Store Information of a Student Using Structure
+    Practical 19: Write a C Program to Find Factorial of a Number Using Recursion.
+    Practical 20: Write a C Program to display Fibonacci Series using
 ```
 
 ----
