@@ -10,11 +10,33 @@
 ---
 ----
 
-#         PROGRAMS
+# PROGRAMS
+```C
+Practical 1:  Write a C Program to Add Two Integers.
+Practical 2:  Write a C Program to Multiply two Floating .
+Practical 3:  Write a C Program to Check Whether a Number is Even or Odd using if else statement.
+Practical 4:  Write a C Program to calculate the sum of first 10 natural numbers using for loop.
+Practical 5:  Write a C Program to print EVEN numbers from 1 to N using while loop.
+Practical 6:  Write a C Program to print ODD numbers from 1 to N using do while loop.
+Practical 7:  Write a C Program to create a simple calculator using switch Statement.
+Practical 8:  Write a C Program to find the max between two numbers uding function.
+Practical 9:  Write a program in C to check whether a number is a prime or not using the function.
+Practical 10: Write a C Program for function (using call by value).
+Practical 11: Write a C Program for function (using call by reference).
+Practical 12: Write a C Program to take 5 values from the user and store them in an array. Print the
+              elements stored in the array.
+Practical 13: Write a C Program to find the average of n numbers using arrays.
+Practical 14: Write a C Program to accept Sorted Array and do Search using Binary Search .
+Practical 15: Write a C Program to Implement Linear Search.
+Practical 16: Write a C Program to Sort N Numbers in Ascending Order using Bubble Sort.
+Practical 17: Write a C program to declare, assign and access a pointer variable.
+Practical 18: Write a C Program to Store Information of a Student Using Structure
+Practical 19: Write a C Program to Find Factorial of a Number Using Recursion.
+Practical 20: Write a C Program to display Fibonacci Series using
+```
 
 ----
-
-## 1. ADD TWO NUMBERS
+## PRACTICAL 1. Write a C Program to Add Two Integers.
 ```C
 #include<stdio.h>
 void main()
@@ -28,66 +50,36 @@ void main()
 ```
 
 ----
-## 2. AVG.OF N NUMBER
+## PRACTICAL 2. Write a C Program to Multiply two Floating Point Numbers
 ```C
-#include<stdio.h>
-void main()     
+#include <stdio.h>
+int main()
 {
-        int n;
-        float sum=0;
-        printf("Enter number of elements \n");
-
-        scanf("%d",&n);
-        int a[n];
-        printf(" now enter %d elements\n",n);
-        for(int i=1;i<=n;i++)
-        {       
-                scanf("%d",&a[i]);
-                sum+=a[i];
-        }
-        float avg;
-        avg = sum/n;
-        printf("Average of %d elements is %0.2f \n",n,avg);
-}       
+    double firstNumber, secondNumber, product;
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &firstNumber, &secondNumber);  
+    product = firstNumber * secondNumber;  
+    printf("Product = %.2lf", product);
+    
+    return 0;
+}
 ```
 
 ----
-## 3. WEEKDAYS BY USING SWITCH STATEMENT
+## PRACTICAL 3. Write a C Program to Check Whether a Number is Even or Odd using if else statement
 ```C
-#include<stdio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-        int a;
-        printf("Enter any integer between 1 to 7\n");
-        scanf("%d",&a);
-        switch(a)
-        {
-                case 1:
-                        printf("MONDAY\n");
-                        break;
-                case 2:
-                        printf("TUESDAY\n");
-                        break;
-                case 3:
-                        printf("WEDNESDAY\n");
-                        break;
-                case 4:
-                        printf("THRUSDAY\n");
-                        break;
-                case 5:
-                        printf("FRIDAY\n");
-                        break;
-                case 6:
-                        printf("SATURDAY\n");
-                        break;
-                case 7:
-                        printf("SUNDAY\n");
-                        break;
-                default :
-                        printf("Enter number between 1 to 7\n");
-                        break;
-        }
-}  
+    int number;
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+    if(number % 2 == 0)
+        printf("%d is even.", number);
+    else
+        printf("%d is odd.", number);
+    return 0;
+}
 ```
 
 ----
