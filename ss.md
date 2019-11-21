@@ -334,15 +334,11 @@ printf("\n Value of a=%d,Value of b=%d after swaping\n",a,b);
 
     Inside the function 
 
- Value of a=65,Value of b=89 before swaping
+    Value of a=65,Value of b=89 before swaping
+    Value of a=89,Value of b=65 after swaping
 
- Value of a=89,Value of b=65 after swaping
-
- After returning from swap function
- Value of x=65,value of y=89
-
-
-
+    After returning from swap function
+    Value of x=65,value of y=89
 ```
 ----
 ## PRACTICAL 11. Write a C Program for function (using call by reference).
@@ -356,7 +352,7 @@ printf("\n Enter value for x:");
 scanf("%d",&x);
 printf("\n Enter value for y:");
 scanf("%d",&y);
-printf("\n Before calling swap functin\n");
+printf("\n Before calling swap function\n");
 printf("\n Value of x=%d,Value of y=%d\n",x,y);
 swap(&x,&y);
 printf("\n After returning from swap function");
@@ -376,7 +372,19 @@ printf("\n Value of a=%d,Value of b=%d after swaping\n",*a,*b);
 
 ### OUTPUT
 ```C
+    Enter value for x:56
+    Enter value for y:78
 
+    Before calling swap function
+    Value of x=56,Value of y=78
+
+    Inside the function 
+
+    Value of a=56,Value of b=78 before swaping
+    Value of a=78,Value of b=56 after swaping
+
+    After returning from swap function
+    Value of x=78,value of y=56
 ```
 
 ----
@@ -401,6 +409,18 @@ int main()
 
 ### OUTPUT
 ```C
+    Enter 5 integers: 52
+    12
+    36
+    91
+    03
+    Displaying integers: 52
+12
+36
+91
+3
+
+
 
 ```
 
